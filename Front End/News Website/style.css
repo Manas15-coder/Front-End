@@ -1,0 +1,66 @@
+*{
+    padding: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Noticia Text', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Urbanist', sans-serif;
+background-image: url("https://media.istockphoto.com/id/539964252/vector/seamless-newspaper-background.jpg?s=612x612&w=0&k=20&c=UwRbd9aCcOoDW0w0fzhuBv9oQny1i-p-Cjc5vWXoGNc=");
+}
+
+.nav-item a{
+    font-size: 20px;
+    font-weight: 400;
+}
+.nav-item a:hover{
+    color:orange;
+    font-size: 22px;
+    transition: 0.2s ease-in-out;
+    
+    
+}
+.card{
+    width:350px;
+    height:auto;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    
+    
+}
+.img{
+    width: 250px;
+    object-fit: cover;
+    justify-content: center;
+}
+.newsType{
+    margin-top:100px;
+    transition-delay: 100s;
+}
+.newsdetails{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h5{
+    color:black;
+    font-weight: 500;
+}
+h7{
+    color:blue;
+}
+p{
+    font-weight: 600;
+}

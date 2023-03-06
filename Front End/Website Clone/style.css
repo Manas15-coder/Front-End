@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#Announcement{
+    background-color: black;
+    color:#ffff;
+}
+.nav_logo{
+    height:40px;
+}
+.nav-item{
+    padding: 10px 20px;
+}
+.nav-item.signup{
+    background-color: #eac808;
+}
+#download{
+    background-color: #3067f0;
+    text-align: center;
+}
+.downloads{
+    width:400px;
+}
+#banner{
+    padding: 100px;
+    background-color: #3067f0;
+    color:#ffff;
+    overflow: hidden;
+}
+.banner_title{
+    font-weight: 600;
+}
+.banner_img{
+    height:500px;
+}
+.btn{
+    background-color: #eac808;
+    border:none;
+    width:300px;
+    padding: 10px 20px;
+}
+.download{
+    height:50px;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+#features{
+    background-color: #dce5fc;
+    padding: 20px 10px;
+    text-align: center;
+}
+.feature{
+    height:100px;
+    align-items: center;
+    cursor: pointer;
+}
+.desc{
+    font-weight: bold;
+}
+.fdesc{
+    color:gray;
+}
+#download{
+    background-color: #3067f0;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+.title{
+    font-weight: bold;
+}
+#about{
+    background-color: #f0f2f5;
+    text-align: left;
+    padding: 25px 50px;
+}
+.about_title{
+    font-weight: bold;
+    margin: 20px;
+    
+}
+.desc_1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.desc_2{
+   font-size: 10px;
+   font-weight: 300;
+
+}
+#wazirx{
+    border-top: 5px solid #3067f0;
+    background-color: #ffffff;
+    padding: 50px 0px;
+}
+.logo{
+    height: 40px;
+}
+#Footer{
+    border-top: 5px gray;
+    background-color: #ffffff;
+    color: gray;
+    padding: 50px 0px;
+}
+#Footer ul li{
+    text-decoration: none;
+    list-style: none;
+}
